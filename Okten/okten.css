@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav_content {
+    display: flex;
+    background: #f9f9f9;
+    height: 92px;
+    align-items: center;
+    border-bottom: 1px solid #3298f2;
+    border-top: 1px solid #3298f2;
+}
+
+.wrapper {
+    display: flex;
+    width: 1720px;
+    max-width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav{
+    display: flex;
+    column-gap: 35px;
+    flex-grow: 1; /*для того щоб забрати пусте місце в блоці*/
+    margin-left: 100px;
+    white-space: nowrap;/*запрещает перенос текста*/
+}
+
+.nav_item a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase; /*Всі літери з верхнім регістром*/
+    color: #292929;
+    text-decoration: none; /* для зняття декорації тексту*/
+}
+
+.nav_button {
+    width: 309px;
+    margin-right: 50px;
+}
+
+.nav_button button{
+    width: 100%;
+    border: 3px solid #4de36a;
+    box-sizing: border-box;
+    border-radius: 8px;
+    font-weight: bold;   /* Насиченість шрифта */
+    color: cornflowerblue;
+    height: 60px;
+    background: white;
+}
