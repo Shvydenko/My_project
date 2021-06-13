@@ -16,15 +16,17 @@
   height: 100%;
 }
 .main {
-  width: 1263px;
+  width: 1450px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   /*margin: 0 auto;*/
 }
 
 .top_part {
   max-width: 100%;
   display: flex;
+  align-items: center;
 }
 
 .middle_part {
@@ -34,7 +36,7 @@
 .logo {
   width: 15%;
   border-radius: 50%;
-  margin-left: 10px;
+  margin-left: 25px;
   margin-top: 25px;
 }
 nav{
@@ -49,4 +51,20 @@ nav{
   white-space: nowrap;
   text-transform: uppercase;
   color: #292929;
+}
+
+.btn-success {
+  color: #fff;
+  background-color: #a38342;
+  border-color: #bbb265;
+  width: 150px;
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border-bottom-right-radius: 0.25rem;
+  border-bottom-left-radius: 0.25rem;
+}
+
+.contentPlace {
+  width: 50px;
+  height: 50px;
 }
